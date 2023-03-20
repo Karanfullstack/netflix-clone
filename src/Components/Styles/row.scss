@@ -1,0 +1,30 @@
+.row {
+  padding: 1rem;
+  background-color: black;
+
+  > div {
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+
+  > h2 {
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    margin: 0.6rem;
+  }
+}
+
+.card {
+  width: 200px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  margin: 0.5rem;
+  border-radius: 5px;
+
+  &:hover {
+    transform: scale(1.1);
+    filter: brightness(0.5);
+  }
+}
